@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin-bottom: 0;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+:root {
+  --red-color: #fd4449;
+  --black-color: #111;
+}
+.bg-red{
+    background-color: --red-color;
+}
+.bg-black{
+    background-color: --black-color;
+}
+.color-red{
+    color: --red-color;
+}
+.color-black{
+    color: var(--black-color);
+}
+.widget-box{
+    border: 1px solid #f6f6f6;
+}
+.top-widget-box{
+    background-color: --red-color;
+    color: white;
+}
+.header-top{
+    background-color: #222222;
+    height: 30px;
+    line-height: 30px;
+    color: #f6f6f6;
+    font-size: 14px;
+    align-items: center;
+    width: 100%;
+}
+.header-top-container{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+}
+.slogan{
+    width: 35%;
+}
+.slogan h5{
+    font-size: 14px;
+    color: #f6f6f6;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+ul.header-menu{
+    display: flex;
+}
+ul.header-menu li{
+    padding: 0px 8px;
+    list-style: none;
+}
+ul.header-menu li a{
+    color: #212529;
+    text-decoration: none;
+}
+ul.header-menu li.current-menu-item a{
+    background-color: #902a2d;
+    color: #f6f6f6;
+    padding: 5px;
+}
+ul.header-menu li.menu-item-has-children{
+    position: relative;
+}
+ul.header-menu li.menu-item-has-children:hover ul.sub-menu{
+    display: block;
+}
+ul.sub-menu{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    background-color: #902a2d;
+    padding-left: 0;
+    width: 250px;
+}
+ul.sub-menu li a{
+    color: #f6f6f6;
+}
+#menu-item-23 ul.sub-menu{
+    display: none;
+}
+.logo img{
+    padding: 15px;
+    width: 284px;
+}
+.banner{
+    margin: 15px 0px;
+}
+.banner img{
+    width: 724px;
+    height: auto;
+}
+.header-bottom{
+    background-color: #fff;
+    border-top: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    vertical-align: middle;
+}
+ul.menu-main{
+    display: flex;
+}
+ul.menu-main li{
+    list-style: none;
+    padding: 0px 8px;
+}
+ul.menu-main li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+    cursor: pointer;
+    text-decoration: none;
+}
+.input-search{
+    width: 250px;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    font-weight: 400;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;;
+}
+h1.title-page{
+    font-size: 20px;
+}
+.content-bvnb img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.box-widget{
+    background-color: #fff;
+    border: 0.5px solid #222222;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+.widget-heading{
+    background-color: #fd4449;
+}
+.footer{
+    background-color: #fd4449;
+    width: 100%;
+}
+.footer-coppyright{
+    background-color: #902a2d;
+}
+.box-footer-contact ul , .box-list-cate ul{
+    padding-left: 0px;
+}
+.box-footer-contact li, .box-list-cate li{
+    list-style: none;
+}
+.box-list-cate li a{
+    text-decoration: none;
+}
+.title-footer{
+    border-bottom: 1px solid #fff;
+}
+.box-post-3-column img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    max-width: 100%;
+    height: 70%;
+}
+.menu-top ul{
+    display: flex;
+    align-items: center;
+}
+.menu-top ul li{
+    padding: 0px 5px;
+    list-style: none;
+}
+.menu-top ul li a{
+    color: #f6f6f6;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
