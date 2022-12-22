@@ -64,8 +64,8 @@
                         </div>
                         <div class="col-4">
                             <div class="box-search">
-                                <form action="" method="get" class="d-flex ">
-                                    <input type="text" name="" id="" class="input-search">
+                                <form action="<?php bloginfo('url'); ?>/" method="GET" role="form" class="d-flex ">
+                                    <input type="text" name="s" id="" placeholder="Từ khóa ..." class="input-search">
                                     <button type="submit" class="btn btn-primary ">Tìm kiếm</button>
                                 </form>
                             </div>

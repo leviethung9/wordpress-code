@@ -127,6 +127,7 @@ ul.menu-main li a{
     text-decoration: none;
 }
 .input-search{
+    padding-left:10px;
     width: 250px;
     color: #212529;
     background-color: #fff;

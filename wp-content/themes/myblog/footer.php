@@ -19,10 +19,23 @@
                             <h3 class="text-white fs-5"> Chuyên mục </h3>
                         </div>
                         <div class="box-list-cate">
-                            <ul>
-                                <li class=""><a href="" class="text-white pe-auto">lập trình</a></li>
-                                <li><a href="" class="text-white pe-auto">lập trình</a></li>
-                            </ul>
+                          
+                            <ul class="list-group">
+            <?php
+                                    $args = array(
+                                        'type' => 'post',
+                                        'child_of' => 0,
+                                        'parent' => ''
+                                    );
+                                    $categories = get_categories($args);
+                                    ?>
+            <?php foreach ($categories as $item): ?>
+            <li class="list-group">
+                <a href="<?php echo get_term_link($item->slug, 'category');?>" class="text-white text-decoration-none"> <?php echo $item->cat_name ?> </a>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+                           
                         </div>
                     </div>
                     <div class="col-4">
