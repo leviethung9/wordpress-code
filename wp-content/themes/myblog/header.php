@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Trang chủ</title>
-    <?php wp_head(); ?>
+    <!-- <//?php wp_head(); ?> -->
 </head>
 
 <body>
@@ -57,8 +57,8 @@
                             array( 
                                 'theme_location' => 'header-menu', 
                                 'container' => 'false', 
-                                'menu_id' => 'header-menu', 
-                                'menu_class' => 'header-menu'
+                                'menu_id' => 'menu-top', 
+                                'menu_class' => 'menu-top'
                             ) 
                             ); ?>
                         </div>
