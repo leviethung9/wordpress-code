@@ -41,11 +41,13 @@
                 </div>
             </div>
             <div class="box-date">
-                <h3 class="ladi-headline">duy nhất 26/12 - 15/1</h3>
+                <h3 class="ladi-headline">Đặt lịch trước giảm 5%</h3>
             </div>
             <div class="box-btn-trainghiem">
                 <div class="btn-tn">
+                <a href="#section7">
                     <p class="ladi-headline">trải nghiệm ngay</p>
+                </a>
                 </div>
 
             </div>
@@ -54,7 +56,7 @@
     </section>
     <!-- section1 end -->
     <!-- form 1 -->
-    <section class="">
+    <section class="mb-20">
         <?php echo do_shortcode( '[contact-form-7 id="84" title="form1"]' );?>
     </section>
     <!-- form 1 end -->
@@ -120,7 +122,10 @@
             </div>
             <div class="box-form-btn">
                 <div class="box-form-btn-bg">
+                    <a href="#section7">
                     <p class="ladi-headline">Đặt lịch ngay</p>
+                    </a>
+                  
                 </div>
             </div>
         </div>
@@ -161,7 +166,7 @@
                     Thư giãn toàn diện
                 </h3>
             </div>
-            <div class="text-2">
+            <div class="section3-text-2">
                 <h3 class="ladi-headline">
                     Điều trị triệt
                     để đau đầu,
@@ -191,18 +196,20 @@
                     <div class="box-form-text">
                         <div class="flex item-center">
                             <p>Chỉ</p>
-                            <h3>249k</h3>
+                            <h3>219k</h3>
                             <p>/buổi</p>
                         </div>
                         <div class="flex item-center">
-                            <h3>1999k</h3>
+                            <h3>1799k</h3>
                             <p>/10 buổi</p>
                         </div>
                     </div>
                 </div>
                 <div class="box-form-btn">
                     <div class="box-form-btn-bg">
+                    <a href="#section7">
                         <p class="ladi-headline">Đặt lịch ngay</p>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -211,12 +218,14 @@
     <!-- section 3 end -->
     <!-- section 4 -->
     <section class="section4 relative" id="section4">
+        <div class="section4-bg">
 
+        </div>
         <div class="section4-container">
             <div class="section4-bg">
                 <div class="section4-bg1">
                     <div class="section4-title">
-                        <h3 class="ladi-headline">Gói tận hưởng</h3>
+                        <h3 class="ladi-headline">Gói Tận Hưởng</h3>
                     </div>
                     <div class="section3-underline">
                         <img src="<?php bloginfo('template_directory') ?>/assets/images/section2-underlined.png" alt="">
@@ -244,17 +253,17 @@
                     Giảm mệt mỏi, phấn chấn tinh thần
                 </h3>
             </div>
-            <div class="text-2">
+            <div class="section4-text-2">
                 <h3 class="ladi-headline">
                     Điều trị triệt để đau đầu, chóng mặt
                 </h3>
             </div>
-            <div class="text-3">
+            <div class="section4-text-3">
                 <h3 class="ladi-headline">
                     Trị liệu chuyên sâu giảm đau cổ vai gáy
                 </h3>
             </div>
-            <div class="text-4">
+            <div class="section4-text-4">
                 <h3 class="ladi-headline">
                     Cải thiện tình trạng tê bì tay, đau ngực
                 </h3>
@@ -288,7 +297,9 @@
                 </div>
                 <div class="box-form-btn">
                     <div class="box-form-btn-bg">
+                    <a href="#section7">
                         <p class="ladi-headline">Đặt lịch ngay</p>
+                    </a>
                     </div>
                 </div>
             </div>
@@ -300,10 +311,19 @@
         <div class="section5-container">
             <div class="section5-bg">
                 <div class="section5-title">
-                    <h3 class="text-1">Emer Spar</h3>
+                    <h3 class="text-1">Emer Spa</h3>
                 </div>
                 <div class="section5-title">
-                    <h3 class="text-2">Cham soc ngoc ngà</h3>
+                    <h3 class="text-2 relative">Cham soc ngoc ngà</h3>
+                </div>
+                <div class="section5-title-shape1">
+                        <h3 class="text-2">,</h3>
+                </div>
+                <div class="section5-title-shape2">
+                        <h3 class="text-2">`</h3>
+                </div>
+                <div class="section5-title-shape3">
+                        <h3 class="text-2">.</h3>
                 </div>
                 <div class="box-img-text1">
                     <img src="<?php bloginfo('template_directory') ?>/assets/images/section5-item1.jpg" alt="">
@@ -322,11 +342,11 @@
     </section>
     <!-- section 5 end -->
     <!-- sectionn 6 -->
-    <section class="section6 relative" id="section6">
+    <section class="section4 relative" id="section4">
         <div class="section6-bg">
 
         </div>
-        <div class="section6-container">
+        <div class="section4-container">
             <div class="section6-box1">
                 <img src="<?php bloginfo('template_directory') ?>/assets/images/section6-item1.png" alt="">
             </div>
@@ -353,7 +373,6 @@
                     <h2>tại Emer Spa</h2>
                 </div>
             </div>
-
             <div class="section6-box6">
                 <div class="container text-center my-3">
                     <div class="row mx-auto my-auto justify-content-center">
@@ -415,13 +434,15 @@
             </div>
             <div class="box-btn-trainghiem2">
                 <div class="btn-tn">
+                    <a href="#section7">
                     <p class="ladi-headline">trải nghiệm ngay</p>
+                </a>
                 </div>
-
-            </div>
-            
         </div>
+        
     </section>
+       
+    
     <!-- section 6 end -->
     <!-- section 7 -->
     <section class="section7 relative" id="section7">
@@ -498,18 +519,19 @@
     <!-- section 7 end -->
     <!-- icon sidebar -->
     <div class="sidebar1">
-        <a href="">
+        <a href="https://zalo.me/0567789799">
             <img src="<?php bloginfo('template_directory') ?>/assets/images/zalo.png" alt="">
         </a>
     </div>
     <div class="sidebar2">
-        <a href="">
+        <a href="tel:0567789799">
             <img src="<?php bloginfo('template_directory') ?>/assets/images/phone.png" alt="">
         </a>
     </div>
     <!-- icon sidebar end -->
 </div>
 
+		
 <!-- content end -->
 
 <?php get_footer(); ?>

@@ -1,0 +1,96 @@
+.widget p img{
+    width:100%!important;
+  }
+.list-news img{
+  width:100%;
+  height:165px;
+  object-fit: cover;
+}
+.list-news img:hover{
+  opacity: .8;
+}
+.list-news{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #111;
+  padding-bottom: 10px ;
+}
+.title-category{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.title-post{
+  color: red;
+  font-size: 15px;
+  font-weight: 700;
+}
+.breadcrumbs{
+  background-color: #ddd;
+  padding: 10px;
+}
+.breadcrumbs p{
+  margin-bottom: 0;
+}
+.site-main{
+  width: 60%;
+  margin: 0 auto;
+}
+.flex-control-nav {
+  display: flex;
+}
+.product_title{
+  font-size: 22px;
+  color: red;
+}
+.woocommerce-Price-amount {
+  font-size: 18px;
+  font-weight: bold;
+}
+.st-pd-contentTitle{
+  text-align: justify;
+}
+form.cart{
+  display: flex;
+}
+.single_add_to_cart_button {
+  width: 120px;
+  height: 50px;
+  background-color: red;
+  color: #fff;
+  border: 1px solid #fff;
+
+}
+.input-text{
+height: 50px;
+}
+.wc-tabs{
+  display: flex;
+}
+.description_tab,.reviews_tab{
+  border: 1px solid #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.reviews_tab a{
+  color: #111;
+}
+.description_tab a{
+  color: #fff
+}
+.description_tab ,.reviews_tab:hover{
+  background-color: blue;
+}
+.reviews_tab a:hover{
+  color: #fff;
+}
+.description_tab a:hover{
+  color: #fff;
+}
+
+.woocommerce-Tabs-panel{
+  border: 1px solid #333;
+  padding: 5px;
+  border-radius: 5px;
+}

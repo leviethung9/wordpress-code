@@ -38,9 +38,11 @@
     font-family: mySevenFont;
     src: url(../fonts/High\ Spirited.ttf);
 }
-p{
-    margin-bottom: 0;
+
+p {
+    margin-bottom: 0 !important;
 }
+
 body {
     user-select: none;
     font-family: "Open Sans", sans-serif;
@@ -58,6 +60,15 @@ body {
     min-height: 100%;
     overflow: hidden;
     position: relative;
+}
+
+.wrapper-tkp {
+    margin: 0 auto;
+    width: 420px;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    Fill: Solid rgba(0, 0, 0, 0.35)
 }
 
 .flex {
@@ -105,6 +116,17 @@ body {
     height: 824px;
 }
 
+.section6-bg {
+    background: radial-gradient(circle, #328D6B, #0D3231);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
 .section1-bg,
 .section2-bg,
 .section6,
@@ -120,7 +142,7 @@ body {
 }
 
 .section3-bg,
-.section4 {
+.section4-bg {
     background: linear-gradient(#279895, #0f3930);
     width: 100%;
     height: 100%;
@@ -281,7 +303,7 @@ body {
 
 .box-date {
     background-image: url('../images/box-date.png');
-    width: 375.814px;
+    width: 400px;
     height: 38.4762px;
     margin: 0 auto;
     margin-top: 35px;
@@ -334,7 +356,7 @@ body {
     letter-spacing: 2px;
     line-height: 1.6;
     -webkit-text-stroke-width: 0px;
-    padding-bottom: 2px;
+    padding-bottom: 15px;
 }
 
 /* section 2 */
@@ -346,13 +368,13 @@ body {
 
 .section2 .title-1 {
     position: absolute;
-    width: 300px;
+    width: 310px;
     top: 32px;
     left: 22px;
 }
 
 .section2 .title-1 .ladi-headline {
-    font-family: myFourFont;
+    font-family: myFirstFont;
     opacity: 0.71;
     color: rgb(255, 255, 255);
     font-size: 42.73px;
@@ -442,7 +464,7 @@ body {
 .ladi-headline {
     font-family: myThreeFont;
     color: rgb(239, 202, 163);
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -591,14 +613,14 @@ body {
     left: 107.129px;
 }
 
-.section3 .text-2 {
+.section3-text-2 {
     position: absolute;
     width: 98px;
     top: 373px;
     left: 303px;
 }
 
-.section3 .text-2 .ladi-headline {
+.section3-text-2 .ladi-headline {
     font-size: 11px;
 }
 
@@ -673,7 +695,7 @@ body {
     position: absolute;
     width: 373px;
     top: 33.421px;
-    left: 22.093px;
+    left: 41px;
 }
 
 .section4-bg2 {
@@ -700,21 +722,21 @@ body {
     left: 110.57px;
 }
 
-.section4 .text-2 {
+.section4-text-2 {
     position: absolute;
     width: 83px;
     top: 342.312px;
     left: 107.57px;
 }
 
-.section4 .text-3 {
+.section4-text-3 {
     position: absolute;
     width: 92px;
     top: 342.312px;
     left: 297.752px;
 }
 
-.section4 .text-4 {
+.section4-text-4 {
     position: absolute;
     width: 83px;
     top: 440.628px;
@@ -735,14 +757,6 @@ body {
     left: 17.441px;
 }
 
-.section4 .ladi-headline {
-    font-family: mySixFont;
-    color: rgb(239, 202, 163);
-    font-size: 13px;
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 1.2;
-}
 
 .section4-title .ladi-headline {
     font-family: myFirstFont;
@@ -1435,7 +1449,7 @@ body {
     letter-spacing: 2px;
     line-height: 1.6;
     -webkit-text-stroke-width: 0px;
-    padding-bottom: 2px;
+    padding-bottom: 15px;
 }
 
 .section7-box7 {
@@ -1458,7 +1472,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
+    margin-top: 0 !important;
     margin-bottom: 0px !important;
     font-weight: 500;
     line-height: 1.2;
@@ -1473,3 +1487,47 @@ h6 {
         left: 9%;
     }
 }
+
+.section5-title-shape1 {
+    position: absolute;
+    top: 48px;
+    left: 114px;
+}
+
+.section5-title-shape1 .text-2 {
+    font-size: 70px;
+    color: rgb(104, 104, 104);
+    font-family: mySecondsFont;
+    -webkit-transform: perspective(1000px) rotate(-49deg) rotateY(200deg);
+}
+
+.section5-title-shape2 {
+    position: absolute;
+    top: 56px;
+    left: 194px;
+}
+
+.section5-title-shape2 .text-2 {
+    font-size: 70px;
+    color: rgb(104, 104, 104);
+    font-family: mySecondsFont;
+    -webkit-transform: perspective(1000px) rotate(-4deg) rotateY(-200deg);
+}
+
+.section5-title-shape3 {
+    position: absolute;
+    top: 60px;
+    left: 263px;
+}
+
+.section5-title-shape3 .text-2 {
+    font-size: 70px;
+    color: rgb(104, 104, 104);
+    font-family: mySecondsFont;
+    -webkit-transform: perspective(1000px) rotate(-4deg) rotateY(-200deg);
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
